@@ -6,6 +6,7 @@
 }
 :root {
     --bs-body-font-family: arial;
+    --jumbo-height: 600px;
 }
 .arrow_down {
     max-width: 10px;
@@ -16,6 +17,22 @@
 .lens {
     max-width: 25px;
     cursor: pointer;
+}
+.jumbo-1 {
+    background-image: url(../img/jumbo-bg.png);
+}
+.jumbo-style {
+    min-height: var(--jumbo-height);
+    background-size: cover;
+    background-position: center;
+}
+.space {
+    min-height: calc(var(--jumbo-height) / 2.4);
+}
+@media screen and (min-width: 992px) {
+    .x {
+        font-size: 40px;
+    }
 }
 
 
