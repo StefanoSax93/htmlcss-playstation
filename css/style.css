@@ -21,6 +21,9 @@
 .jumbo-1 {
     background-image: url(../img/jumbo-bg.png);
 }
+.jumbo-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 .jumbo-style {
     min-height: var(--jumbo-height);
     background-size: cover;
