@@ -42,7 +42,17 @@
     bottom: 0;
     height: 100%;
 }
-
+.card-style {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.card-style:hover {
+    border-bottom: 3px solid var(--bs-primary);
+    opacity: 1;
+}
+.line_height {
+    line-height: 30px;
+}
 @media screen and (min-width: 992px) {
     .x {
         font-size: 40px;
