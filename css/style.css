@@ -1,0 +1,22 @@
+.sony {
+    max-width: 70px;
+}
+.section:not(.full-height) {
+    padding: 2rem 0;
+}
+:root {
+    --bs-body-font-family: arial;
+}
+.arrow_down {
+    max-width: 10px;
+}
+.btn {
+    border-radius: 20px;
+}
+.lens {
+    max-width: 25px;
+    cursor: pointer;
+}
+
+
+
