@@ -8,6 +8,9 @@
     --bs-body-font-family: arial;
     --jumbo-height: 600px;
 }
+.bg_secondary {
+    background-color: #BEBCBB;
+}
 .arrow_down {
     max-width: 10px;
 }
@@ -31,6 +34,13 @@
 }
 .space {
     min-height: calc(var(--jumbo-height) / 2.4);
+}
+.banner-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
 }
 
 @media screen and (min-width: 992px) {
