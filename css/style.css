@@ -11,7 +11,7 @@
 .arrow_down {
     max-width: 10px;
 }
-.btn {
+.btn, .card-img-style {
     border-radius: 20px;
 }
 .lens {
@@ -29,6 +29,7 @@
 .space {
     min-height: calc(var(--jumbo-height) / 2.4);
 }
+
 @media screen and (min-width: 992px) {
     .x {
         font-size: 40px;
