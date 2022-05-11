@@ -110,14 +110,14 @@
     left: -1000px;
     transition: all 0.3s;
 }
-header a:focus + .menu {
+header a:focus + .menu, .hamburger:focus + .menu {
     left: 0;
     right: 0;
 }
 header a {
     cursor: pointer;
 }
-header a:hover span, header a:focus span{
+header a:hover span, header a:focus span {
     color: var(--bs-primary);
 }
 header a:hover .show {
