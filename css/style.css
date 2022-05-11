@@ -45,6 +45,8 @@
 .card-style {
     opacity: 0.5;
     cursor: pointer;
+    min-height: 100%;
+    border-bottom: 3px solid transparent;
 }
 .card-style:hover {
     border-bottom: 3px solid var(--bs-primary);
@@ -63,6 +65,9 @@
     font-size: 20px;
     vertical-align: text-top;
 }
+.btn {
+    border: 2px solid transparent;
+}
 .btn-primary:hover {
     border: 2px solid white;
     box-shadow: 0 0 0 2px var(--bs-primary);
@@ -78,7 +83,16 @@
 .btn-light:hover {
     border: 2px solid var(--bs-primary);
     box-shadow: 0 0 0 2px var(--bs-light);
-    margin-bottom: -2px;
+}
+.bg-now {
+    background-color: #161C3B;
+}
+.btn-white {
+    background-color: white;
+}
+.btn-white:hover {
+    border: 2px solid #161C3B;
+    box-shadow: 0 0 0 2px white;
 }
 
 @media screen and (min-width: 992px) {
