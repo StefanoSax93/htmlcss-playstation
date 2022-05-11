@@ -59,6 +59,28 @@
 .card-radius {
     border-radius: 15px;
 }
+.copyright {
+    font-size: 20px;
+    vertical-align: text-top;
+}
+.btn-primary:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+}
+.btn-dark:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-dark);
+}
+.btn-danger:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px var(--bs-danger);
+}
+.btn-light:hover {
+    border: 2px solid var(--bs-primary);
+    box-shadow: 0 0 0 2px var(--bs-light);
+    margin-bottom: -2px;
+}
+
 @media screen and (min-width: 992px) {
     .x {
         font-size: 40px;
