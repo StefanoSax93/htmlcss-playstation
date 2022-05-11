@@ -108,6 +108,7 @@
     background-color: white;
     top: 100%;
     left: -1000px;
+    transition: all 0.3s;
 }
 header a:focus + .menu {
     left: 0;
