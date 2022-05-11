@@ -104,11 +104,36 @@
     max-width: 20px;
     vertical-align: middle;
 }
+.menu {
+    background-color: white;
+    top: 100%;
+    left: -1000px;
+}
+header a:focus + .menu {
+    left: 0;
+    right: 0;
+}
+header a {
+    cursor: pointer;
+}
+header a:hover span, header a:focus span{
+    color: var(--bs-primary);
+}
+header a:hover .show {
+    display: none;
+}
+.ghost {
+    display: none;
+}
+header a:hover .ghost {
+    display: initial;
+}
 @media screen and (min-width: 992px) {
     .x {
         font-size: 40px;
     }
 }
+
 
 
 
