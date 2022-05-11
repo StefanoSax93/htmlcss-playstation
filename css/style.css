@@ -53,6 +53,12 @@
 .line_height {
     line-height: 30px;
 }
+.bg-shop {
+    background-color: #393939;
+}
+.card-radius {
+    border-radius: 15px;
+}
 @media screen and (min-width: 992px) {
     .x {
         font-size: 40px;
