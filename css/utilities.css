@@ -8,6 +8,10 @@
 .btn, .card-img-style {
     border-radius: 20px;
 }
+.card-img-style {
+    transition: all 0.3s;
+    cursor: pointer;
+}
 .bg_secondary {
     background-color: #BEBCBB;
 }
