@@ -1,0 +1,46 @@
+.btn-primary:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+}
+.btn-dark:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-dark);
+}
+.btn-danger:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px var(--bs-danger);
+}
+.btn-light:hover {
+    border: 2px solid var(--bs-primary);
+    box-shadow: 0 0 0 2px var(--bs-light);
+}
+.btn-white:hover {
+    border: 2px solid #161C3B;
+    box-shadow: 0 0 0 2px white;
+}
+.card-style:hover {
+    border-bottom: 3px solid var(--bs-primary);
+    opacity: 1;
+}
+.menu {
+    background-color: white;
+    top: 100%;
+    left: -1000px;
+    transition: all 0.3s;
+}
+header a:focus + .menu, .hamburger:focus + .menu {
+    left: 0;
+    right: 0;
+}
+header a:hover span, header a:focus span {
+    color: var(--bs-primary);
+}
+header a:hover .show, header a:focus .show {
+    display: none;
+}
+.ghost {
+    display: none;
+}
+header a:hover .ghost, header a:focus .ghost {
+    display: initial;
+}

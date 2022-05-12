@@ -1,0 +1,42 @@
+.section:not(.full-height) {
+    padding: 2rem 0;
+}
+:root {
+    --bs-body-font-family: arial;
+    --jumbo-height: 600px;
+}
+.btn, .card-img-style {
+    border-radius: 20px;
+}
+.bg_secondary {
+    background-color: #BEBCBB;
+}
+.card-style {
+    opacity: 0.5;
+    cursor: pointer;
+    min-height: 100%;
+    border-bottom: 3px solid transparent;
+}
+.line_height {
+    line-height: 30px;
+}
+.bg-shop {
+    background-color: #393939;
+}
+.card-radius {
+    border-radius: 15px;
+}
+.btn {
+    border: 2px solid transparent;
+}
+
+.bg-now {
+    background-color: #161C3B;
+}
+.btn-white {
+    background-color: white;
+}
+
+.bg-footer {
+    background-color: #00439C;
+}

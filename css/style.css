@@ -1,21 +1,8 @@
 .sony {
     max-width: 70px;
 }
-.section:not(.full-height) {
-    padding: 2rem 0;
-}
-:root {
-    --bs-body-font-family: arial;
-    --jumbo-height: 600px;
-}
-.bg_secondary {
-    background-color: #BEBCBB;
-}
 .arrow_down {
     max-width: 10px;
-}
-.btn, .card-img-style {
-    border-radius: 20px;
 }
 .lens {
     max-width: 25px;
@@ -42,60 +29,9 @@
     bottom: 0;
     height: 100%;
 }
-.card-style {
-    opacity: 0.5;
-    cursor: pointer;
-    min-height: 100%;
-    border-bottom: 3px solid transparent;
-}
-.card-style:hover {
-    border-bottom: 3px solid var(--bs-primary);
-    opacity: 1;
-}
-.line_height {
-    line-height: 30px;
-}
-.bg-shop {
-    background-color: #393939;
-}
-.card-radius {
-    border-radius: 15px;
-}
 .copyright {
     font-size: 20px;
     vertical-align: text-top;
-}
-.btn {
-    border: 2px solid transparent;
-}
-.btn-primary:hover {
-    border: 2px solid white;
-    box-shadow: 0 0 0 2px var(--bs-primary);
-}
-.btn-dark:hover {
-    border: 2px solid white;
-    box-shadow: 0 0 0 2px var(--bs-dark);
-}
-.btn-danger:hover {
-    border: 2px solid black;
-    box-shadow: 0 0 0 2px var(--bs-danger);
-}
-.btn-light:hover {
-    border: 2px solid var(--bs-primary);
-    box-shadow: 0 0 0 2px var(--bs-light);
-}
-.bg-now {
-    background-color: #161C3B;
-}
-.btn-white {
-    background-color: white;
-}
-.btn-white:hover {
-    border: 2px solid #161C3B;
-    box-shadow: 0 0 0 2px white;
-}
-.bg-footer {
-    background-color: #00439C;
 }
 .ps-footer {
     min-width: 100px;
@@ -104,30 +40,8 @@
     max-width: 20px;
     vertical-align: middle;
 }
-.menu {
-    background-color: white;
-    top: 100%;
-    left: -1000px;
-    transition: all 0.3s;
-}
-header a:focus + .menu, .hamburger:focus + .menu {
-    left: 0;
-    right: 0;
-}
-header a {
+header a, .hamburger {
     cursor: pointer;
-}
-header a:hover span, header a:focus span {
-    color: var(--bs-primary);
-}
-header a:hover .show {
-    display: none;
-}
-.ghost {
-    display: none;
-}
-header a:hover .ghost {
-    display: initial;
 }
 @media screen and (min-width: 992px) {
     .x {
