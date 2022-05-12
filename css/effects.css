@@ -48,6 +48,9 @@ header a:hover .ghost, header a:focus .ghost {
     transform: translateY(-10px);
     box-shadow: 0px 10px 10px 0px #888888;
 }
+.card-img-style:focus {
+    border: 3px solid var(--bs-primary);
+}
 ._scale {
     transition: transform 0.3s;
 }
